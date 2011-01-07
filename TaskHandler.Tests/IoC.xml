@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net" xmlns:aop="http://www.springframework.net/aop">
+  <object id="SampleTrigger" type="TaskHandler.BusinessLogic.Impl.GenericTrigger, TaskHandler.BusinessLogic">
+    <property name="Interval" value="10s"></property>
+    <property name="Task" ref="SampleTask"></property>
+  </object>
+  <object id="SampleTask" type="TaskHandler.Tests.SampleTask, TaskHandler.Tests"></object>
+  <object id="ITriggerLoader" type="TaskHandler.BusinessLogic.Impl.TriggerLoaderImpl, TaskHandler.BusinessLogic">
+  </object>
+</objects>

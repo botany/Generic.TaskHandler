@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net" xmlns:aop="http://www.springframework.net/aop">
+  <object id="SampleTrigger1" type="TaskHandler.BusinessLogic.Impl.GenericTrigger, TaskHandler.BusinessLogic">
+    <property name="Interval" value="10s"></property>
+    <property name="Task" ref="SampleTask1"></property>
+  </object>
+  <object id="SampleTrigger2" type="TaskHandler.BusinessLogic.Impl.GenericTrigger, TaskHandler.BusinessLogic">
+    <property name="Interval" value="20s"></property>
+    <property name="Task" ref="SampleTask2"></property>
+  </object>
+  <object id="SampleTask1" type="TaskHandler.BusinessLogic.Impl.SampleTask1, TaskHandler.BusinessLogic"></object>
+  <object id="SampleTask2" type="TaskHandler.BusinessLogic.Impl.SampleTask2, TaskHandler.BusinessLogic"></object>
+  
+  <object id="ITriggerLoader" type="TaskHandler.BusinessLogic.Impl.TriggerLoaderImpl, TaskHandler.BusinessLogic">
+  </object>
+</objects>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskHandler.WinService", "TaskHandler.WinService\TaskHandler.WinService.csproj", "{B3670F1A-559E-485B-AD57-9A7E672A4A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskHandler.BusinessLogic", "TaskHandler.BusinessLogic\TaskHandler.BusinessLogic.csproj", "{D12AFDC5-F063-481B-8FD8-77D56FA8BADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskHandler.Tests", "TaskHandler.Tests\TaskHandler.Tests.csproj", "{F10C5002-B381-4778-BFC6-9B10AC85F273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskHandler.Commons", "TaskHandler.Commons\TaskHandler.Commons.csproj", "{1A1B8227-7633-4C10-9D7C-9EDBCC267DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3670F1A-559E-485B-AD57-9A7E672A4A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3670F1A-559E-485B-AD57-9A7E672A4A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3670F1A-559E-485B-AD57-9A7E672A4A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3670F1A-559E-485B-AD57-9A7E672A4A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12AFDC5-F063-481B-8FD8-77D56FA8BADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12AFDC5-F063-481B-8FD8-77D56FA8BADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12AFDC5-F063-481B-8FD8-77D56FA8BADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12AFDC5-F063-481B-8FD8-77D56FA8BADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10C5002-B381-4778-BFC6-9B10AC85F273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10C5002-B381-4778-BFC6-9B10AC85F273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10C5002-B381-4778-BFC6-9B10AC85F273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10C5002-B381-4778-BFC6-9B10AC85F273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1B8227-7633-4C10-9D7C-9EDBCC267DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1B8227-7633-4C10-9D7C-9EDBCC267DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1B8227-7633-4C10-9D7C-9EDBCC267DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1B8227-7633-4C10-9D7C-9EDBCC267DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
